@@ -25,8 +25,10 @@ public static class ValidationConstants
     public const string EmailLong = "EmailLong";
     public const string EmailInvalid = "EmailInvalid";
     public const string EmailExists = "EmailExists";
-    
+
     public const string PasswordEmpty = "PasswordEmpty";
     public const string PasswordShort = "PasswordShort";
     public const string PasswordLong = "PasswordLong";
+
+    public const string LoginFailed = "LoginFailed";
 }

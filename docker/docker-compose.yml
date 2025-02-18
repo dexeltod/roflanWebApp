@@ -1,0 +1,9 @@
+services:
+    roflanwebapp:
+        build:
+            context: ../ # Указываем путь к контексту сборки относительно расположения docker-compose.yml
+            dockerfile: ./docker/Dockerfile # Путь к Dockerfile относительно контекста сборки
+        ports:
+            - "8080:5273" # Перенаправляем порт 80 контейнера на порт 8080 хоста
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development

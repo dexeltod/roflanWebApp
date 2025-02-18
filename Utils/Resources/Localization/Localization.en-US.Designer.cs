@@ -92,5 +92,23 @@ namespace Utils.Resources.Localization {
                 return ResourceManager.GetString("TitleLong", resourceCulture);
             }
         }
+        
+        internal static string AgeShort {
+            get {
+                return ResourceManager.GetString("AgeShort", resourceCulture);
+            }
+        }
+        
+        internal static string AgeLong {
+            get {
+                return ResourceManager.GetString("AgeLong", resourceCulture);
+            }
+        }
+        
+        internal static string LoginFailed {
+            get {
+                return ResourceManager.GetString("LoginFailed", resourceCulture);
+            }
+        }
     }
 }

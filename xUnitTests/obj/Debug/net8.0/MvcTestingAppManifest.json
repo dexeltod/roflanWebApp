@@ -1,0 +1,6 @@
+{
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/mnt\/oldHdd\/projects\/c#\/dotnet\/roflanWebApp\/roflanWebAppMono\/Application",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/mnt\/oldHdd\/projects\/c#\/dotnet\/roflanWebApp\/roflanWebAppMono\/Domain",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/mnt\/oldHdd\/projects\/c#\/dotnet\/roflanWebApp\/roflanWebAppMono\/Infrastructure",
+  "Utils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/mnt\/oldHdd\/projects\/c#\/dotnet\/roflanWebApp\/roflanWebAppMono\/Utils"
+}

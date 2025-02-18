@@ -75,6 +75,12 @@ namespace Utils.Resources.Localization {
             }
         }
         
+        internal static string TitleLong {
+            get {
+                return ResourceManager.GetString("TitleLong", resourceCulture);
+            }
+        }
+        
         internal static string TitleShort {
             get {
                 return ResourceManager.GetString("TitleShort", resourceCulture);
@@ -87,9 +93,21 @@ namespace Utils.Resources.Localization {
             }
         }
         
-        internal static string TitleLong {
+        internal static string AgeShort {
             get {
-                return ResourceManager.GetString("TitleLong", resourceCulture);
+                return ResourceManager.GetString("AgeShort", resourceCulture);
+            }
+        }
+        
+        internal static string AgeLong {
+            get {
+                return ResourceManager.GetString("AgeLong", resourceCulture);
+            }
+        }
+        
+        internal static string LoginFailed {
+            get {
+                return ResourceManager.GetString("LoginFailed", resourceCulture);
             }
         }
     }

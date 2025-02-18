@@ -4,10 +4,8 @@ namespace Utils.Resources.Localization;
 
 public class Localization : IStringLocalizer
 {
-    public IEnumerable<LocalizedString> GetAllStrings(bool includeParentCultures)
-    {
+    public IEnumerable<LocalizedString> GetAllStrings(bool includeParentCultures) =>
         throw new NotImplementedException();
-    }
 
     LocalizedString IStringLocalizer.this[string name] => this[name];
 

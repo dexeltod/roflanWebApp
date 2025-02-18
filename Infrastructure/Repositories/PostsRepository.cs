@@ -24,7 +24,7 @@ public class PostsRepository : IPostsRepository
     public async Task AddPost(PostDataTransferObject postData, CancellationToken cancellationToken,
         Action<List<ValidationFailure>> onError)
     {
-        var validation = await _postValidator.ValidateAsync(postData, cancellationToken);
+        ValidationResult? validation = await _postValidator.ValidateAsync(postData, cancellationToken);
 
         if (validation.IsValid == false)
         {
@@ -32,11 +32,7 @@ public class PostsRepository : IPostsRepository
             return;
         }
 
-        var authorId = postData.AuthorId;
-        var title = postData.Title;
-        var content = postData.Content;
-
-        Post post = await _postFactory.Create(authorId, title, content);
+        Post post = await _postFactory.Create(postData);
 
         await _context.Posts.AddAsync(post, cancellationToken);
         await _context.SaveChangesAsync(cancellationToken);
@@ -44,7 +40,7 @@ public class PostsRepository : IPostsRepository
 
     public async Task UpdatePost(long id, string title, string content)
     {
-        var post = await GetPost(id);
+        Post? post = await GetPost(id);
 
         if (post == null) throw new ArgumentNullException(nameof(post));
 
@@ -57,7 +53,7 @@ public class PostsRepository : IPostsRepository
 
     public async Task DeletePost(long id)
     {
-        var post = await GetPost(id);
+        Post? post = await GetPost(id);
         if (post == null) throw new ArgumentNullException(nameof(post));
 
         _context.Posts.Remove(post);

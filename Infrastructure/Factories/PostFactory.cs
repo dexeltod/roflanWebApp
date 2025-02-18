@@ -1,3 +1,4 @@
+using Application.DTO;
 using Domain.Models;
 using Infrastructure.Contexts;
 
@@ -7,16 +8,14 @@ public class PostFactory
 {
     private readonly ApplicationContext _applicationContext;
 
-    public PostFactory(ApplicationContext applicationContext)
-    {
-        _applicationContext = applicationContext ?? throw new ArgumentNullException(nameof(applicationContext));
-    }
+    public PostFactory(ApplicationContext applicationContext) => _applicationContext =
+        applicationContext ?? throw new ArgumentNullException(nameof(applicationContext));
 
-    public async Task<Post> Create(long authorId, string title, string content)
+    public async Task<Post> Create(PostDataTransferObject postData)
     {
-        var userFromBd = await _applicationContext.Users.FindAsync(authorId);
+        User? userFromBd = await _applicationContext.Users.FindAsync(postData.AuthorId);
         if (userFromBd == null) throw new ArgumentNullException(nameof(userFromBd));
 
-        return new Post(title, content, userFromBd);
+        return new Post(postData.Title, postData.Content, userFromBd);
     }
 }
