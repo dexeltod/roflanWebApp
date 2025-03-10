@@ -1,4 +1,5 @@
 using Boot;
+using Boot.Extensions.WebApplicationExtensions;
 using Boot.Middlewares;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
@@ -22,10 +23,14 @@ else
 	app.UseSwaggerUI();
 }
 
+app.UseCors("AllowReactApp");
 app.UseRouting();
 app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllerRoute("default", "{controller=UserRegistration}/{action=Index}/{id?}");
+
+app.UseMinimalApi();
+
 app.UseMiddleware<CultureMiddleware>();
 app.Run();

@@ -12,9 +12,10 @@
     <ItemGroup>
         <PackageReference Include="BCrypt.Net-Next" Version="4.0.3"/>
         <PackageReference Include="Confluent.Kafka" Version="2.8.0"/>
-        <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="9.0.1"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="8.0.0"/>
         <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.12.0"/>
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.12.0"/>
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.12.0"/>
         <PackageReference Include="Microsoft.CodeAnalysis.Razor" Version="6.0.36"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="9.0.1"/>

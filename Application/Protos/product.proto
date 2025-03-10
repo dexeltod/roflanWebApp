@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "ProductService";
+
+package proto;
+
+service ProductService {
+    rpc GetProduct (ProductRequest) returns (ProductReply);
+}
+
+message ProductRequest {
+    string id = 1;
+}
+
+message ProductReply {
+    string product = 1;
+}

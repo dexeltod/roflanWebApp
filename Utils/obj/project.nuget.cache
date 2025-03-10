@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2aLtgDiisOyDVGTY/alQi92To3KoK3k2Nz3btm6WwpNilYSD9yUQhKaRLhB42mkpKn5mt+/JpSrRfoHZPYhSIA==",
+  "dgSpecHash": "Cyjcw9zUWY7/scKOaOmVV2SjyQElyX8qGwShAU89zX7jjHbKKVCf/iIuOUWenmVMN+Dr2vdZsWauuvB+aLkAhA==",
   "success": true,
   "projectFilePath": "/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/Utils.csproj",
   "expectedPackageFiles": [
@@ -25,12 +25,11 @@
     "/home/roflanUser/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/8.0.0/microsoft.aspnetcore.cryptography.keyderivation.8.0.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/8.0.0/microsoft.aspnetcore.identity.entityframeworkcore.8.0.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/microsoft.aspnetcore.metadata/8.0.0/microsoft.aspnetcore.metadata.8.0.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4/microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/microsoft.codeanalysis.common/4.12.0/microsoft.codeanalysis.common.4.12.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/microsoft.codeanalysis.csharp/4.12.0/microsoft.codeanalysis.csharp.4.12.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.5.0/microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.5.0/microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
+    "/home/roflanUser/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.12.0/microsoft.codeanalysis.csharp.workspaces.4.12.0.nupkg.sha512",
+    "/home/roflanUser/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.12.0/microsoft.codeanalysis.workspaces.common.4.12.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/microsoft.entityframeworkcore/8.0.0/microsoft.entityframeworkcore.8.0.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.0/microsoft.entityframeworkcore.abstractions.8.0.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.1/microsoft.entityframeworkcore.analyzers.9.0.1.nupkg.sha512",
@@ -61,51 +60,20 @@
     "/home/roflanUser/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.0/npgsql.entityframeworkcore.postgresql.8.0.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/system.collections.immutable/8.0.0/system.collections.immutable.8.0.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/system.composition/6.0.0/system.composition.6.0.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/system.composition.attributedmodel/6.0.0/system.composition.attributedmodel.6.0.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/system.composition.convention/6.0.0/system.composition.convention.6.0.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/system.composition.hosting/6.0.0/system.composition.hosting.6.0.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/system.composition.runtime/6.0.0/system.composition.runtime.6.0.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/system.composition.typedparts/6.0.0/system.composition.typedparts.6.0.0.nupkg.sha512",
+    "/home/roflanUser/.nuget/packages/system.composition/8.0.0/system.composition.8.0.0.nupkg.sha512",
+    "/home/roflanUser/.nuget/packages/system.composition.attributedmodel/8.0.0/system.composition.attributedmodel.8.0.0.nupkg.sha512",
+    "/home/roflanUser/.nuget/packages/system.composition.convention/8.0.0/system.composition.convention.8.0.0.nupkg.sha512",
+    "/home/roflanUser/.nuget/packages/system.composition.hosting/8.0.0/system.composition.hosting.8.0.0.nupkg.sha512",
+    "/home/roflanUser/.nuget/packages/system.composition.runtime/8.0.0/system.composition.runtime.8.0.0.nupkg.sha512",
+    "/home/roflanUser/.nuget/packages/system.composition.typedparts/8.0.0/system.composition.typedparts.8.0.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/system.identitymodel.tokens.jwt/8.0.0/system.identitymodel.tokens.jwt.8.0.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
+    "/home/roflanUser/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/system.reflection.metadata/8.0.0/system.reflection.metadata.8.0.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
     "/home/roflanUser/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/system.threading.channels/6.0.0/system.threading.channels.6.0.0.nupkg.sha512",
-    "/home/roflanUser/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512"
+    "/home/roflanUser/.nuget/packages/system.threading.channels/7.0.0/system.threading.channels.7.0.0.nupkg.sha512",
+    "/home/roflanUser/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.CSharp.Workspaces 4.5.0 requires Microsoft.CodeAnalysis.Common (= 4.5.0) but version Microsoft.CodeAnalysis.Common 4.12.0 was resolved.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.CSharp.Workspaces 4.5.0 requires Microsoft.CodeAnalysis.CSharp (= 4.5.0) but version Microsoft.CodeAnalysis.CSharp 4.12.0 was resolved.",
-      "libraryId": "Microsoft.CodeAnalysis.CSharp",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.Workspaces.Common 4.5.0 requires Microsoft.CodeAnalysis.Common (= 4.5.0) but version Microsoft.CodeAnalysis.Common 4.12.0 was resolved.",
-      "libraryId": "Microsoft.CodeAnalysis.Common",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -103,6 +103,10 @@
               "target": "Package",
               "version": "[4.12.0, )"
             },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
             "Microsoft.CodeAnalysis.Common": {
               "target": "Package",
               "version": "[4.12.0, )"
@@ -170,7 +174,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
+              "version": "[8.0.13, 8.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -178,7 +182,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.113/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -290,6 +294,10 @@
               "target": "Package",
               "version": "[4.12.0, )"
             },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
             "Microsoft.CodeAnalysis.Common": {
               "target": "Package",
               "version": "[4.12.0, )"
@@ -341,7 +349,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
+              "version": "[8.0.13, 8.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -352,7 +360,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.113/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -452,6 +460,10 @@
               "target": "Package",
               "version": "[4.12.0, )"
             },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
             "Microsoft.CodeAnalysis.Common": {
               "target": "Package",
               "version": "[4.12.0, )"
@@ -503,7 +515,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
+              "version": "[8.0.13, 8.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -511,7 +523,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.113/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -617,6 +629,10 @@
               "target": "Package",
               "version": "[4.12.0, )"
             },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
             "Microsoft.CodeAnalysis.Common": {
               "target": "Package",
               "version": "[4.12.0, )"
@@ -672,7 +688,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
+              "version": "[8.0.13, 8.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -680,7 +696,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.113/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -780,6 +796,10 @@
               "target": "Package",
               "version": "[4.12.0, )"
             },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
             "Microsoft.CodeAnalysis.Common": {
               "target": "Package",
               "version": "[4.12.0, )"
@@ -831,7 +851,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.12, 8.0.12]"
+              "version": "[8.0.13, 8.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -839,7 +859,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.113/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

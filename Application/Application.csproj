@@ -30,7 +30,15 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\greet.proto" GrpcServices="Client"/>
+        <Protobuf Include="Protos\greet.proto" GrpcServices="Both"/>
+        <Protobuf Include="Protos\product.proto" GrpcServices="Both">
+            <GrpcServices>Client</GrpcServices>
+            <Access>Public</Access>
+            <ProtoCompile>True</ProtoCompile>
+            <CompileOutputs>True</CompileOutputs>
+            <OutputDir>obj/Debug/net8.0/</OutputDir>
+            <Generator>MSBuild:Compile</Generator>
+        </Protobuf>
     </ItemGroup>
 
     <ItemGroup>
@@ -52,6 +60,7 @@
         <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="8.0.0"/>
         <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.12.0"/>
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.12.0"/>
+        <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.12.0"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="9.0.1"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
@@ -72,11 +81,11 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="GrpcServices\"/>
+        <None Remove="Services\GreeterClient.cs~"/>
     </ItemGroup>
 
     <ItemGroup>
-        <None Remove="Services\GreeterClient.cs~"/>
+        <Folder Include="BackgroundServices\"/>
     </ItemGroup>
 
 </Project>

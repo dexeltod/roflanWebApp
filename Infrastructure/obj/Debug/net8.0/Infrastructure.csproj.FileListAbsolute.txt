@@ -42,3 +42,5 @@
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CopyComplete
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/bin/Debug/net8.0/Infrastructure.runtimeconfig.json
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/Infrastructure.genruntimeconfig.cache

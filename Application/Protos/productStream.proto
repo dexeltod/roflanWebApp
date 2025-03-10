@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+service ProductStreamService {
+    // Унарный метод (обычный запрос-ответ)
+    //    rpc UnaryMethod (RequestMessage) returns (ResponseMessage);
+
+    // Серверный потоковый метод (клиент отправляет одно сообщение, сервер — поток)
+    //    rpc ServerStreamingMethod (RequestMessage) returns (stream ResponseMessage);
+
+    // Клиентский потоковый метод (клиент отправляет поток, сервер — одно сообщение)
+    //    rpc ClientStreamingMethod (stream RequestMessage) returns (ResponseMessage);
+
+    // Двунаправленный потоковый метод (клиент и сервер обмениваются потоками)
+    rpc BidirectionalStreamingMethod (stream RequestMessage) returns (stream ResponseMessage);
+}
+
+// Определение сообщений
+message RequestMessage {
+    string data = 1;
+}
+
+message ResponseMessage {
+    string data = 1;
+}

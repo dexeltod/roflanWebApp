@@ -38,3 +38,5 @@
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/Application.pdb
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/ref/Application.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/Application.csproj.CopyComplete
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/bin/Debug/net8.0/Application.runtimeconfig.json
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/Application.genruntimeconfig.cache
