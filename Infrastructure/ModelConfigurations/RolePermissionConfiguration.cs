@@ -1,4 +1,4 @@
-using Domain.Models;
+using Domain.Models.User;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Utils.ConfigurationModels;

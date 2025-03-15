@@ -5,7 +5,7 @@ namespace Application.Validation;
 
 public interface IUserRegistrationValidator : IValidator<UserDataTransferObject>
 {
-    Task<bool> IsUniqueEmail(string email, CancellationToken cancellationToken);
+	Task<bool> IsUniqueEmail(string email, CancellationToken cancellationToken);
 }
 
 public interface IUserValidatorById : IValidator<long>

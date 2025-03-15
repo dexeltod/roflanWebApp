@@ -64,6 +64,18 @@ namespace Application {
       get { return global::Application.GreetReflection.Descriptor.Services[0]; }
     }
 
+    /// <summary>Base class for server-side implementations of Greeter</summary>
+    [grpc::BindServiceMethod(typeof(Greeter), "BindService")]
+    public abstract partial class GreeterBase
+    {
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Application.HelloReply> SayHello(global::Application.HelloRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+    }
+
     /// <summary>Client for Greeter</summary>
     public partial class GreeterClient : grpc::ClientBase<GreeterClient>
     {
@@ -117,6 +129,25 @@ namespace Application {
       {
         return new GreeterClient(configuration);
       }
+    }
+
+    /// <summary>Creates service definition that can be registered with a server</summary>
+    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public static grpc::ServerServiceDefinition BindService(GreeterBase serviceImpl)
+    {
+      return grpc::ServerServiceDefinition.CreateBuilder()
+          .AddMethod(__Method_SayHello, serviceImpl.SayHello).Build();
+    }
+
+    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
+    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    public static void BindService(grpc::ServiceBinderBase serviceBinder, GreeterBase serviceImpl)
+    {
+      serviceBinder.AddMethod(__Method_SayHello, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Application.HelloRequest, global::Application.HelloReply>(serviceImpl.SayHello));
     }
 
   }

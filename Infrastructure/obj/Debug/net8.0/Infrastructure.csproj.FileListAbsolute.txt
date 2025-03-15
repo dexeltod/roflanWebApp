@@ -21,6 +21,7 @@
 /mnt/oldHdd/projects/c#/dotnet/roflanWebAPp/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CopyComplete
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/bin/Debug/net8.0/Infrastructure.deps.json
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/bin/Debug/net8.0/Infrastructure.runtimeconfig.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/bin/Debug/net8.0/Infrastructure.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/bin/Debug/net8.0/Infrastructure.pdb
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/bin/Debug/net8.0/Application.dll
@@ -37,10 +38,9 @@
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CoreCompileInputs.cache
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CopyComplete
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/Infrastructure.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
-/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
-/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CopyComplete
-/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/bin/Debug/net8.0/Infrastructure.runtimeconfig.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/Infrastructure.genruntimeconfig.cache
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll

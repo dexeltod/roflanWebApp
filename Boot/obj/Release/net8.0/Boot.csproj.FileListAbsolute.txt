@@ -164,3 +164,14 @@
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/obj/Release/net8.0/Boot.pdb
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/obj/Release/net8.0/Boot.genruntimeconfig.cache
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/obj/Release/net8.0/ref/Boot.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/bin/Release/net8.0/Microsoft.AspNetCore.Authentication.Google.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/bin/Release/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/bin/Release/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/bin/Release/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/bin/Release/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/bin/Release/net8.0/Microsoft.Extensions.ObjectPool.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/bin/Release/net8.0/Microsoft.Extensions.Options.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/bin/Release/net8.0/Microsoft.Extensions.WebEncoders.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/bin/Release/net8.0/System.Security.Cryptography.Pkcs.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/bin/Release/net8.0/System.Security.Cryptography.Xml.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Boot/bin/Release/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll

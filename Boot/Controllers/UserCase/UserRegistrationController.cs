@@ -1,7 +1,7 @@
 using Application.DTO;
 using Application.Repositories;
 using Application.Validation;
-using Domain.Models;
+using Domain.Models.User;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,8 +12,7 @@ public class UserRegistrationController(
 	IUserRepository userRepository,
 	IUserRegistrationValidator userRegistrationValidator,
 	IUserValidatorById userValidatorById
-)
-	: ControllerBase
+) : ControllerBase
 {
 	private readonly ILogger<UserRegistrationController> _logger = logger ?? throw new ArgumentNullException(nameof(logger));
 

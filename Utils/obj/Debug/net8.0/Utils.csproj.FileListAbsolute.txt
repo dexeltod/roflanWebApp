@@ -24,6 +24,7 @@
 /mnt/oldHdd/projects/c#/dotnet/roflanWebAPp/Utils/obj/Debug/net8.0/Utils.sourcelink.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/Utils/obj/Debug/net8.0/Utils.csproj.CopyComplete
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/bin/Debug/net8.0/Utils.deps.json
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/bin/Debug/net8.0/Utils.runtimeconfig.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/bin/Debug/net8.0/Utils.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/bin/Debug/net8.0/Utils.pdb
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/bin/Debug/net8.0/en-US/Utils.resources.dll
@@ -43,10 +44,9 @@
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/obj/Debug/net8.0/en-US/Utils.resources.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/obj/Debug/net8.0/ru-RU/Utils.resources.cs
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/obj/Debug/net8.0/ru-RU/Utils.resources.dll
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/obj/Debug/net8.0/Utils.csproj.CopyComplete
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/obj/Debug/net8.0/Utils.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/obj/Debug/net8.0/refint/Utils.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/obj/Debug/net8.0/Utils.pdb
-/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/obj/Debug/net8.0/ref/Utils.dll
-/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/obj/Debug/net8.0/Utils.csproj.CopyComplete
-/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/bin/Debug/net8.0/Utils.runtimeconfig.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/obj/Debug/net8.0/Utils.genruntimeconfig.cache
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Utils/obj/Debug/net8.0/ref/Utils.dll

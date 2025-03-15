@@ -4,15 +4,19 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-
+        <PreserveCompilationContext>true</PreserveCompilationContext>
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
     </PropertyGroup>
 
     <ItemGroup>
+        <InternalsVisibleTo Include="Boot"/>
         <PackageReference Include="BCrypt.Net-Next" Version="4.0.3"/>
         <PackageReference Include="Confluent.Kafka" Version="2.8.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.3.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.13"/>
         <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.14"/>
         <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.12.0"/>
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.12.0"/>
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.12.0"/>
@@ -59,6 +63,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\Boot\Boot.csproj"/>
         <ProjectReference Include="..\Infrastructure\Infrastructure.csproj"/>
     </ItemGroup>
 

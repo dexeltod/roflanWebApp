@@ -37,7 +37,8 @@ public class DependencyInjection
 						"AllowReactApp",
 						policy =>
 						{
-							policy.WithOrigins("http://localhost:3000") // Разрешить запросы с этого домена
+							policy
+								.WithOrigins("http://localhost:3000") // Разрешить запросы с этого домена
 								.AllowAnyHeader() // Разрешить любые заголовки
 								.AllowAnyMethod(); // Разрешить любые HTTP-методы (GET, POST и т.д.)
 						}

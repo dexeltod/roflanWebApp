@@ -25,24 +25,38 @@ public class UserRegistrationValidator : AbstractValidator<UserDataTransferObjec
 	{
 		_userValidator = userValidator ?? throw new ArgumentNullException(nameof(userValidator));
 
-		RuleFor(u => u.Age).NotEmpty().WithMessage(localizer[ValidationConstants.AgeEmpty])
-			.GreaterThanOrEqualTo(MinimumAge).WithMessage(localizer[ValidationConstants.AgeShort])
-			.LessThanOrEqualTo(MaxAge).WithMessage(localizer[ValidationConstants.AgeLong]);
+		RuleFor(u => u.Age)
+			.NotEmpty()
+			.WithMessage(localizer[ValidationConstants.AgeEmpty])
+			.GreaterThanOrEqualTo(MinimumAge)
+			.WithMessage(localizer[ValidationConstants.AgeShort])
+			.LessThanOrEqualTo(MaxAge)
+			.WithMessage(localizer[ValidationConstants.AgeLong]);
 
 		RuleFor(u => u.Name)
-			.NotEmpty().WithMessage(localizer[ValidationConstants.NameEmpty])
-			.MinimumLength(MinName).WithMessage(localizer[ValidationConstants.NameShort])
-			.MaximumLength(MaxName).WithMessage(localizer[ValidationConstants.NameLong]);
+			.NotEmpty()
+			.WithMessage(localizer[ValidationConstants.NameEmpty])
+			.MinimumLength(MinName)
+			.WithMessage(localizer[ValidationConstants.NameShort])
+			.MaximumLength(MaxName)
+			.WithMessage(localizer[ValidationConstants.NameLong]);
 
 		RuleFor(u => u.Password)
-			.NotEmpty().WithMessage(localizer[ValidationConstants.PasswordEmpty])
-			.MinimumLength(MinimumPasswordLength).WithMessage(localizer[ValidationConstants.PasswordShort]);
+			.NotEmpty()
+			.WithMessage(localizer[ValidationConstants.PasswordEmpty])
+			.MinimumLength(MinimumPasswordLength)
+			.WithMessage(localizer[ValidationConstants.PasswordShort]);
 
 		RuleFor(u => u.Email)
-			.NotEmpty().WithMessage(localizer[ValidationConstants.EmailEmpty])
-			.MinimumLength(MinEmail).WithMessage(localizer[ValidationConstants.EmailShort])
-			.MaximumLength(MaxEmail).WithMessage(localizer[ValidationConstants.EmailLong]).EmailAddress()
-			.MustAsync(IsUniqueEmail).WithMessage(localizer[ValidationConstants.EmailExists]);
+			.NotEmpty()
+			.WithMessage(localizer[ValidationConstants.EmailEmpty])
+			.MinimumLength(MinEmail)
+			.WithMessage(localizer[ValidationConstants.EmailShort])
+			.MaximumLength(MaxEmail)
+			.WithMessage(localizer[ValidationConstants.EmailLong])
+			.EmailAddress()
+			.MustAsync(IsUniqueEmail)
+			.WithMessage(localizer[ValidationConstants.EmailExists]);
 	}
 
 	public async Task<bool> IsUniqueEmail(string email, CancellationToken cancellationToken) =>

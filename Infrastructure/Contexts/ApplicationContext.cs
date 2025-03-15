@@ -1,4 +1,5 @@
 using Domain.Models;
+using Domain.Models.User;
 using Infrastructure.ModelConfigurations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

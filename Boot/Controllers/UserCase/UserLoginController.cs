@@ -39,7 +39,7 @@ public class UserLoginController : ControllerBase
 	{
 		string? uri = _configuration["Services:Login"] ?? throw new ArgumentNullException(_configuration["Services:Login"]);
 
-		// Создаем gRPC канал
+
 		GrpcChannel channel = GrpcChannel.ForAddress(uri, new GrpcChannelOptions { HttpClient = httpClient });
 		var client = new Greeter.GreeterClient(channel);
 
@@ -49,21 +49,9 @@ public class UserLoginController : ControllerBase
 
 		_logger.LogInformation("Received reply: {Message}", reply.Message);
 
-		// Возвращаем ответ клиенту
 		return Ok(reply.Message);
 
-		// return StatusCode((int)response.StatusCode);
-		//
-		// ValidationResult validation = await ValidateAsync(userData, cancellationToken);
-		//
-		// if (validation.IsValid == false)
-		// 	return BadRequest(validation.Errors);
-		//
-		// var claims = new List<Claim> { new(ClaimTypes.Email, userData.Email) };
-		//
-		// JwtSecurityToken token = _jwtTokenFactory.Create(claims);
-		//
-		// return Ok(token.UnsafeToString());
+
 	}
 
 	private async Task<ValidationResult> ValidateAsync(UserDataTransferObject userData, CancellationToken cancellationToken) =>

@@ -19,6 +19,7 @@
 /mnt/oldHdd/projects/c#/dotnet/roflanWebAPp/Application/obj/Debug/net8.0/Application.sourcelink.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/Application/obj/Debug/net8.0/Application.csproj.CopyComplete
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/bin/Debug/net8.0/Application.deps.json
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/bin/Debug/net8.0/Application.runtimeconfig.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/bin/Debug/net8.0/Application.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/bin/Debug/net8.0/Application.pdb
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/bin/Debug/net8.0/Domain.dll
@@ -33,10 +34,9 @@
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/Application.sourcelink.json
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/Application.csproj.CopyComplete
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/Application.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/refint/Application.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/Application.pdb
-/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/ref/Application.dll
-/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/Application.csproj.CopyComplete
-/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/bin/Debug/net8.0/Application.runtimeconfig.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/Application.genruntimeconfig.cache
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Application/obj/Debug/net8.0/ref/Application.dll

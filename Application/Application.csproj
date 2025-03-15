@@ -56,6 +56,8 @@
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
         <PackageReference Include="IdentityModel" Version="7.0.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.3.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.13"/>
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8"/>
         <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="8.0.0"/>
         <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.12.0"/>

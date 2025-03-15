@@ -1,6 +1,6 @@
 using Application.Repositories;
 using Application.Services;
-using Domain.Models;
+using Domain.Models.User;
 
 namespace Infrastructure.Services;
 

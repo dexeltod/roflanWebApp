@@ -8,7 +8,7 @@ namespace Boot.Extensions.WebApplicationExtensions;
 
 public static class WebApplicationExtension
 {
-	public static WebApplication UseMinimalApi(this WebApplication app)
+	public static WebApplication MapMinimalApi(this WebApplication app)
 	{
 		app.SetKafka();
 		app.SetProduct();
@@ -20,7 +20,7 @@ public static class WebApplicationExtension
 	private static void SetKafka(this WebApplication app)
 	{
 		app.MapPost(
-			"kafkaTest",
+			"kafka_test",
 			async (KafkaProducer producer, CancellationToken token) =>
 			{
 				await producer.SendMessageAsync("testTopic", "zdarovaMessage", token);
@@ -31,7 +31,7 @@ public static class WebApplicationExtension
 	private static void SetProduct(this WebApplication app)
 	{
 		app.MapGet(
-			"/get_product",
+			"/set_product",
 			async (CancellationToken token) =>
 			{
 				using GrpcChannel channel = GrpcChannel.ForAddress("http://localhost:5198");
@@ -50,7 +50,7 @@ public static class WebApplicationExtension
 
 	private static void SetTest(this WebApplication app)
 	{
-		var result = new { name = "huesos" };
+		var result = new { name = "resultName" };
 
 		app.MapGet("ok-string", async (CancellationToken _) => await FromResult(result));
 	}

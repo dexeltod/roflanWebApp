@@ -6,6 +6,5 @@ public class index : PageModel
 {
 	public void OnGet()
 	{
-		
 	}
 }

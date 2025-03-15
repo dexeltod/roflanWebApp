@@ -12,6 +12,7 @@
 /mnt/oldHdd/projects/c#/dotnet/roflanWebAPp/Domain/obj/Debug/net8.0/ref/Domain.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebAPp/Domain/obj/Debug/net8.0/Domain.sourcelink.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/bin/Debug/net8.0/Domain.deps.json
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/bin/Debug/net8.0/Domain.runtimeconfig.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/bin/Debug/net8.0/Domain.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/bin/Debug/net8.0/Domain.pdb
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
@@ -23,6 +24,5 @@
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/obj/Debug/net8.0/Domain.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/obj/Debug/net8.0/refint/Domain.dll
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/obj/Debug/net8.0/Domain.pdb
-/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/obj/Debug/net8.0/ref/Domain.dll
-/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/bin/Debug/net8.0/Domain.runtimeconfig.json
 /mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/obj/Debug/net8.0/Domain.genruntimeconfig.cache
+/mnt/oldHdd/projects/c#/dotnet/roflanWebApp/roflanWebAppMono/Domain/obj/Debug/net8.0/ref/Domain.dll

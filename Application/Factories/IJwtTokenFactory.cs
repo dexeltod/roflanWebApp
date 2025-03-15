@@ -5,5 +5,5 @@ namespace Application.Factories;
 
 public interface IJwtTokenFactory
 {
-    JwtSecurityToken Create(IEnumerable<Claim> claims, int expirationTime = 0);
+	JwtSecurityToken Create(IEnumerable<Claim> claims, int expirationTime = 0);
 }

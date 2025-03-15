@@ -1,6 +1,5 @@
-namespace Domain.Models;
+namespace Domain.Models.User;
 
 public class UserMessage
 {
-	
 }
